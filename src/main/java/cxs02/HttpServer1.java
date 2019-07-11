@@ -1,4 +1,4 @@
-package com.z.cxs01;
+package cxs02;
 
 import java.io.File;
 import java.io.IOException;
@@ -8,8 +8,7 @@ import java.net.InetAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-public class HttpServer {
-
+public class HttpServer1 {
     static final String WEB_ROOT = System.getProperty("user.dir") + File.separator + "webroot";
 
     // shutdown command
@@ -20,7 +19,7 @@ public class HttpServer {
 
 
     public static void main(String[] args) {
-        HttpServer server = new HttpServer();
+        HttpServer1 server = new HttpServer1();
         server.await();
     }
 
@@ -47,14 +46,20 @@ public class HttpServer {
 
                 Response response = new Response(output);
                 response.setRequest(request);
-                response.sendStaticResource();
 
+                if (request.getUri().startsWith("/servlet/")) {
+                    ServletProcessor1 processor = new ServletProcessor1();
+                    processor.process(request, response);
+                } else {
+                    StaticResourceProcessor processor = new StaticResourceProcessor();
+                    processor.process(request, response);
+                }
                 // Close the socket
                 socket.close();
+                shutdown = request.getUri().equals(SHUTDOWN_COMMAND);
             } catch (IOException ex) {
 
             }
         }
     }
-
 }
