@@ -258,7 +258,7 @@ import org.apache.catalina.Globals;
  * <li> Support for setting headers (for example, Location headers don't work)
  * <li> Support for collapsing multiple header lines (per RFC 2616)
  * <li> Ensure handling of POST method does not interfere with 2.3 Filters
- * <li> Refactor some debug code out of core
+ * <li> Refactor some debug code out of cxs04.z.core
  * <li> Ensure header handling preserves encoding
  * <li> Possibly rewrite CGIRunner.run()?
  * <li> Possibly refactor CGIRunner and CGIEnvironment as non-inner classes?
@@ -795,7 +795,7 @@ public class CGIServlet extends HttpServlet {
 
 
         /**
-         * Resolves core information about the cgi script.
+         * Resolves cxs04.z.core information about the cgi script.
          *
          * <p>
          * Example URI:

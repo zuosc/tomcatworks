@@ -1,5 +1,5 @@
 /*
- * $Header: /home/cvs/jakarta-tomcat-4.0/catalina/src/share/org/apache/catalina/core/StandardEngineValve.java,v 1.7 2001/11/10 01:24:20 craigmcc Exp $
+ * $Header: /home/cvs/jakarta-tomcat-4.0/catalina/src/share/org/apache/catalina/cxs04.z.core/StandardEngineValve.java,v 1.7 2001/11/10 01:24:20 craigmcc Exp $
  * $Revision: 1.7 $
  * $Date: 2001/11/10 01:24:20 $
  *
@@ -99,7 +99,7 @@ final class StandardEngineValve
      * The descriptive information related to this implementation.
      */
     private static final String info =
-        "org.apache.catalina.core.StandardEngineValve/1.0";
+        "org.apache.catalina.cxs04.z.core.StandardEngineValve/1.0";
 
 
     /**

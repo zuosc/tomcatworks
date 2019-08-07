@@ -1,5 +1,5 @@
 /*
- * $Header: /home/cvs/jakarta-tomcat-4.0/catalina/src/share/org/apache/catalina/core/StandardContext.java,v 1.112 2002/09/09 14:39:37 remm Exp $
+ * $Header: /home/cvs/jakarta-tomcat-4.0/catalina/src/share/org/apache/catalina/cxs04.z.core/StandardContext.java,v 1.112 2002/09/09 14:39:37 remm Exp $
  * $Revision: 1.112 $
  * $Date: 2002/09/09 14:39:37 $
  *
@@ -275,7 +275,7 @@ public class StandardContext
      * The descriptive information string for this implementation.
      */
     private static final String info =
-        "org.apache.catalina.core.StandardContext/1.0";
+        "org.apache.catalina.cxs04.z.core.StandardContext/1.0";
 
 
     /**
@@ -307,7 +307,7 @@ public class StandardContext
      * The Java class name of the default Mapper class for this Container.
      */
     private String mapperClass =
-        "org.apache.catalina.core.StandardContextMapper";
+        "org.apache.catalina.cxs04.z.core.StandardContextMapper";
 
 
     /**
@@ -441,7 +441,7 @@ public class StandardContext
     /**
      * Java class name of the Wrapper class implementation we use.
      */
-    private String wrapperClass = "org.apache.catalina.core.StandardWrapper";
+    private String wrapperClass = "org.apache.catalina.cxs04.z.core.StandardWrapper";
 
 
     /**

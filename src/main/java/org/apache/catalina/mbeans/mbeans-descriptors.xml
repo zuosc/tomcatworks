@@ -323,7 +323,7 @@
                         when creating a Context"
                domain="Catalina"
                 group="Default-Context"
-                 type="org.apache.catalina.core.StandardDefaultContext">
+                 type="org.apache.catalina.cxs04.z.core.StandardDefaultContext">
 
     <attribute   name="cookies"
           description="Should we attempt to use cookies for session id
@@ -1621,7 +1621,7 @@
           context associated with each context and server"
                domain="Catalina"
                 group="Listener"
-                 type="org.apache.catalina.core.NamingContextListener">
+                 type="org.apache.catalina.cxs04.z.core.NamingContextListener">
 
     <attribute   name="className"
           description="Fully qualified class name of the managed object"
@@ -1925,7 +1925,7 @@
           description="Standard Context Component"
                domain="Catalina"
                 group="Context"
-                 type="org.apache.catalina.core.StandardContext">
+                 type="org.apache.catalina.cxs04.z.core.StandardContext">
 
     <attribute   name="cookies"
           description="Should we attempt to use cookies for session id
@@ -2039,7 +2039,7 @@
                         StandardContext container implementation"
                domain="Catalina"
                 group="Valve"
-                 type="org.apache.catalina.core.StandardContextValve">
+                 type="org.apache.catalina.cxs04.z.core.StandardContextValve">
 
     <attribute   name="className"
           description="Fully qualified class name of the managed object"
@@ -2058,7 +2058,7 @@
           description="Standard Engine Component"
                domain="Catalina"
                 group="Engine"
-                 type="org.apache.catalina.core.StandardEngine">
+                 type="org.apache.catalina.cxs04.z.core.StandardEngine">
 
     <attribute   name="debug"
           description="The debugging detail level for this component"
@@ -2085,7 +2085,7 @@
                         StandardEngine container implementation"
                domain="Catalina"
                 group="Valve"
-                 type="org.apache.catalina.core.StandardEngineValve">
+                 type="org.apache.catalina.cxs04.z.core.StandardEngineValve">
 
     <attribute   name="className"
           description="Fully qualified class name of the managed object"
@@ -2104,7 +2104,7 @@
           description="Standard Host Component"
                domain="Catalina"
                 group="Host"
-                 type="org.apache.catalina.core.StandardHost">
+                 type="org.apache.catalina.cxs04.z.core.StandardHost">
 
     <attribute   name="appBase"
           description="The application root for this Host"
@@ -2179,7 +2179,7 @@
                         StandardHost container implementation"
                domain="Catalina"
                 group="Valve"
-                 type="org.apache.catalina.core.StandardHostValve">
+                 type="org.apache.catalina.cxs04.z.core.StandardHostValve">
 
     <attribute   name="className"
           description="Fully qualified class name of the managed object"
@@ -2345,7 +2345,7 @@
           description="Standard Server Component"
                domain="Catalina"
                 group="Server"
-                 type="org.apache.catalina.core.StandardServer">
+                 type="org.apache.catalina.cxs04.z.core.StandardServer">
 
     <attribute   name="debug"
           description="The debugging detail level for this component"
@@ -2377,7 +2377,7 @@
           description="Standard Service Component"
                domain="Catalina"
                 group="Service"
-                 type="org.apache.catalina.core.StandardService">
+                 type="org.apache.catalina.cxs04.z.core.StandardService">
 
     <attribute   name="debug"
           description="The debugging detail level for this component"
@@ -2400,7 +2400,7 @@
                         StandardWrapper container implementation"
                domain="Catalina"
                 group="Valve"
-                 type="org.apache.catalina.core.StandardWrapperValve">
+                 type="org.apache.catalina.cxs04.z.core.StandardWrapperValve">
 
     <attribute   name="className"
           description="Fully qualified class name of the managed object"

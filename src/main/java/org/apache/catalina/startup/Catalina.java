@@ -279,7 +279,7 @@ public class Catalina {
 
         // Configure the actions we will be using
         digester.addObjectCreate("Server",
-                                 "org.apache.catalina.core.StandardServer",
+                                 "org.apache.catalina.cxs04.z.core.StandardServer",
                                  "className");
         digester.addSetProperties("Server");
         digester.addSetNext("Server",
@@ -302,7 +302,7 @@ public class Catalina {
                             "org.apache.catalina.LifecycleListener");
 
         digester.addObjectCreate("Server/Service",
-                                 "org.apache.catalina.core.StandardService",
+                                 "org.apache.catalina.cxs04.z.core.StandardService",
                                  "className");
         digester.addSetProperties("Server/Service");
         digester.addSetNext("Server/Service",
@@ -374,7 +374,7 @@ public class Catalina {
 
         // Configure the rules we need for shutting down
         digester.addObjectCreate("Server",
-                                 "org.apache.catalina.core.StandardServer",
+                                 "org.apache.catalina.cxs04.z.core.StandardServer",
                                  "className");
         digester.addSetProperties("Server");
         digester.addSetNext("Server",

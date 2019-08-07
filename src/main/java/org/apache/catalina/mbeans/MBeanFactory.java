@@ -109,7 +109,7 @@ import org.apache.commons.modeler.Registry;
 
 /**
  * <p>A <strong>ModelMBean</strong> implementation for the
- * <code>org.apache.catalina.core.StandardServer</code> component.</p>
+ * <code>org.apache.catalina.cxs04.z.core.StandardServer</code> component.</p>
  *
  * @author Amy Roh
  * @version $Revision: 1.40 $ $Date: 2002/09/19 22:55:48 $
@@ -162,13 +162,13 @@ public class MBeanFactory extends BaseModelMBean {
      */
     public String findObjectName(String type) {
 
-        if (type.equals("org.apache.catalina.core.StandardContext")) {
+        if (type.equals("org.apache.catalina.cxs04.z.core.StandardContext")) {
             return "StandardContext";
-        } else if (type.equals("org.apache.catalina.core.StandardDefaultContext")) {
+        } else if (type.equals("org.apache.catalina.cxs04.z.core.StandardDefaultContext")) {
             return "DefaultContext";
-        } else if (type.equals("org.apache.catalina.core.StandardEngine")) {
+        } else if (type.equals("org.apache.catalina.cxs04.z.core.StandardEngine")) {
             return "Engine";
-        } else if (type.equals("org.apache.catalina.core.StandardHost")) {
+        } else if (type.equals("org.apache.catalina.cxs04.z.core.StandardHost")) {
             return "Host";
         } else {
             return null;

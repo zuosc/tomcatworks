@@ -1,5 +1,5 @@
 /*
- * $Header: /home/cvs/jakarta-tomcat-4.0/catalina/src/share/org/apache/catalina/core/NamingContextListener.java,v 1.19 2002/06/25 22:29:23 remm Exp $
+ * $Header: /home/cvs/jakarta-tomcat-4.0/catalina/src/share/org/apache/catalina/cxs04.z.core/NamingContextListener.java,v 1.19 2002/06/25 22:29:23 remm Exp $
  * $Revision: 1.19 $
  * $Date: 2002/06/25 22:29:23 $
  *

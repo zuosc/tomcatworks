@@ -80,7 +80,7 @@ import org.apache.commons.modeler.Registry;
 
 /**
  * <p>A <strong>ModelMBean</strong> implementation for the
- * <code>org.apache.catalina.core.StandardContext</code> component.</p>
+ * <code>org.apache.catalina.cxs04.z.core.StandardContext</code> component.</p>
  *
  * @author Amy Roh
  * @version $Revision: 1.6 $ $Date: 2002/06/06 22:36:47 $

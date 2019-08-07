@@ -132,7 +132,7 @@ public class HostRuleSet extends RuleSetBase {
     public void addRuleInstances(Digester digester) {
 
         digester.addObjectCreate(prefix + "Host",
-                                 "org.apache.catalina.core.StandardHost",
+                                 "org.apache.catalina.cxs04.z.core.StandardHost",
                                  "className");
         digester.addSetProperties(prefix + "Host");
         digester.addRule(prefix + "Host",

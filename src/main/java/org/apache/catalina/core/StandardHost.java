@@ -1,5 +1,5 @@
 /*
- * $Header: /home/cvs/jakarta-tomcat-4.0/catalina/src/share/org/apache/catalina/core/StandardHost.java,v 1.29 2002/06/09 02:19:42 remm Exp $
+ * $Header: /home/cvs/jakarta-tomcat-4.0/catalina/src/share/org/apache/catalina/cxs04.z.core/StandardHost.java,v 1.29 2002/06/09 02:19:42 remm Exp $
  * $Revision: 1.29 $
  * $Date: 2002/06/09 02:19:42 $
  *
@@ -140,7 +140,7 @@ public class StandardHost
      * deployed web applications.
      */
     private String contextClass =
-        "org.apache.catalina.core.StandardContext";
+        "org.apache.catalina.cxs04.z.core.StandardContext";
 
 
     /**
@@ -168,7 +168,7 @@ public class StandardHost
      * The descriptive information string for this implementation.
      */
     private static final String info =
-        "org.apache.catalina.core.StandardHost/1.0";
+        "org.apache.catalina.cxs04.z.core.StandardHost/1.0";
 
 
     /**
@@ -181,7 +181,7 @@ public class StandardHost
      * The Java class name of the default Mapper class for this Container.
      */
     private String mapperClass =
-        "org.apache.catalina.core.StandardHostMapper";
+        "org.apache.catalina.cxs04.z.core.StandardHostMapper";
 
 
     /**

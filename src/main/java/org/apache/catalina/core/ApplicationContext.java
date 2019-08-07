@@ -1,5 +1,5 @@
 /*
- * $Header: /home/cvs/jakarta-tomcat-4.0/catalina/src/share/org/apache/catalina/core/ApplicationContext.java,v 1.39 2002/06/28 01:35:34 remm Exp $
+ * $Header: /home/cvs/jakarta-tomcat-4.0/catalina/src/share/org/apache/catalina/cxs04.z.core/ApplicationContext.java,v 1.39 2002/06/28 01:35:34 remm Exp $
  * $Revision: 1.39 $
  * $Date: 2002/06/28 01:35:34 $
  *

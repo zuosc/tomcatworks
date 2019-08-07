@@ -1,5 +1,5 @@
 /*
- * $Header: /home/cvs/jakarta-tomcat-4.0/catalina/src/share/org/apache/catalina/core/StandardServer.java,v 1.32 2002/09/11 14:19:33 amyroh Exp $
+ * $Header: /home/cvs/jakarta-tomcat-4.0/catalina/src/share/org/apache/catalina/cxs04.z.core/StandardServer.java,v 1.32 2002/09/11 14:19:33 amyroh Exp $
  * $Revision: 1.32 $
  * $Date: 2002/09/11 14:19:33 $
  *
@@ -146,15 +146,15 @@ public final class StandardServer
      * be persisted because they are automatically calculated.
      */
     private static String exceptions[][] = {
-        { "org.apache.catalina.core.StandardContext", "available" },
-        { "org.apache.catalina.core.StandardContext", "configured" },
-        { "org.apache.catalina.core.StandardContext", "distributable" },
-        { "org.apache.catalina.core.StandardContext", "name" },
-        { "org.apache.catalina.core.StandardContext", "override" },
-        { "org.apache.catalina.core.StandardContext", "publicId" },
-        { "org.apache.catalina.core.StandardContext", "replaceWelcomeFiles" },
-        { "org.apache.catalina.core.StandardContext", "sessionTimeout" },
-        { "org.apache.catalina.core.StandardContext", "workDir" },
+        { "org.apache.catalina.cxs04.z.core.StandardContext", "available" },
+        { "org.apache.catalina.cxs04.z.core.StandardContext", "configured" },
+        { "org.apache.catalina.cxs04.z.core.StandardContext", "distributable" },
+        { "org.apache.catalina.cxs04.z.core.StandardContext", "name" },
+        { "org.apache.catalina.cxs04.z.core.StandardContext", "override" },
+        { "org.apache.catalina.cxs04.z.core.StandardContext", "publicId" },
+        { "org.apache.catalina.cxs04.z.core.StandardContext", "replaceWelcomeFiles" },
+        { "org.apache.catalina.cxs04.z.core.StandardContext", "sessionTimeout" },
+        { "org.apache.catalina.cxs04.z.core.StandardContext", "workDir" },
         { "org.apache.catalina.session.StandardManager", "distributable" },
         { "org.apache.catalina.session.StandardManager", "entropy" },
     };
@@ -187,10 +187,10 @@ public final class StandardServer
         "org.apache.catalina.authenticator.FormAuthenticator",
         "org.apache.catalina.authenticator.NonLoginAuthenticator",
         "org.apache.catalina.authenticator.SSLAuthenticator",
-        "org.apache.catalina.core.NamingContextListener",
-        "org.apache.catalina.core.StandardContextValve",
-        "org.apache.catalina.core.StandardEngineValve",
-        "org.apache.catalina.core.StandardHostValve",
+        "org.apache.catalina.cxs04.z.core.NamingContextListener",
+        "org.apache.catalina.cxs04.z.core.StandardContextValve",
+        "org.apache.catalina.cxs04.z.core.StandardEngineValve",
+        "org.apache.catalina.cxs04.z.core.StandardHostValve",
         "org.apache.catalina.startup.ContextConfig",
         "org.apache.catalina.startup.EngineConfig",
         "org.apache.catalina.startup.HostConfig",
@@ -257,7 +257,7 @@ public final class StandardServer
      * Descriptive information about this Server implementation.
      */
     private static final String info =
-        "org.apache.catalina.core.StandardServer/1.0";
+        "org.apache.catalina.cxs04.z.core.StandardServer/1.0";
 
 
     /**

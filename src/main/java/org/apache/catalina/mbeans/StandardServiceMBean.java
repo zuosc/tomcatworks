@@ -72,7 +72,7 @@ import org.apache.commons.modeler.BaseModelMBean;
 
 /**
  * <p>A <strong>ModelMBean</strong> implementation for the
- * <code>org.apache.catalina.core.StandardService</code> component.</p>
+ * <code>org.apache.catalina.cxs04.z.core.StandardService</code> component.</p>
  *
  * @author Amy Roh
  * @version $Revision: 1.9 $ $Date: 2002/03/08 22:01:08 $

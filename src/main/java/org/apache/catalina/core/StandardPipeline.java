@@ -1,5 +1,5 @@
 /*
- * $Header: /home/cvs/jakarta-tomcat-4.0/catalina/src/share/org/apache/catalina/core/StandardPipeline.java,v 1.8 2002/06/09 02:19:42 remm Exp $
+ * $Header: /home/cvs/jakarta-tomcat-4.0/catalina/src/share/org/apache/catalina/cxs04.z.core/StandardPipeline.java,v 1.8 2002/06/09 02:19:42 remm Exp $
  * $Revision: 1.8 $
  * $Date: 2002/06/09 02:19:42 $
  *
@@ -150,7 +150,7 @@ public class StandardPipeline
     /**
      * Descriptive information about this implementation.
      */
-    protected String info = "org.apache.catalina.core.StandardPipeline/1.0";
+    protected String info = "org.apache.catalina.cxs04.z.core.StandardPipeline/1.0";
 
 
     /**

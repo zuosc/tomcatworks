@@ -1061,7 +1061,7 @@ public abstract class AuthenticatorBase
             throw new LifecycleException
                 (sm.getString("authenticator.alreadyStarted"));
         lifecycle.fireLifecycleEvent(START_EVENT, null);
-        if ("org.apache.catalina.core.StandardContext".equals
+        if ("org.apache.catalina.cxs04.z.core.StandardContext".equals
             (context.getClass().getName())) {
             try {
                 Class paramTypes[] = new Class[0];

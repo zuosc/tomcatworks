@@ -1,5 +1,5 @@
 /*
- * $Header: /home/cvs/jakarta-tomcat-4.0/catalina/src/share/org/apache/catalina/core/ApplicationHttpRequest.java,v 1.12 2002/05/23 07:13:45 remm Exp $
+ * $Header: /home/cvs/jakarta-tomcat-4.0/catalina/src/share/org/apache/catalina/cxs04.z.core/ApplicationHttpRequest.java,v 1.12 2002/05/23 07:13:45 remm Exp $
  * $Revision: 1.12 $
  * $Date: 2002/05/23 07:13:45 $
  *
@@ -145,7 +145,7 @@ class ApplicationHttpRequest extends HttpServletRequestWrapper {
      * Descriptive information about this implementation.
      */
     protected static final String info =
-        "org.apache.catalina.core.ApplicationHttpRequest/1.0";
+        "org.apache.catalina.cxs04.z.core.ApplicationHttpRequest/1.0";
 
 
     /**

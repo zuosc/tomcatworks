@@ -103,7 +103,7 @@ public final class UserConfig
     /**
      * The Java class name of the Context implementation we should use.
      */
-    private String contextClass = "org.apache.catalina.core.StandardContext";
+    private String contextClass = "org.apache.catalina.cxs04.z.core.StandardContext";
 
 
     /**

@@ -1,5 +1,5 @@
 /*
- * $Header: /home/cvs/jakarta-tomcat-4.0/catalina/src/share/org/apache/catalina/core/ApplicationHttpResponse.java,v 1.8 2002/06/28 12:19:13 remm Exp $
+ * $Header: /home/cvs/jakarta-tomcat-4.0/catalina/src/share/org/apache/catalina/cxs04.z.core/ApplicationHttpResponse.java,v 1.8 2002/06/28 12:19:13 remm Exp $
  * $Revision: 1.8 $
  * $Date: 2002/06/28 12:19:13 $
  *
@@ -137,7 +137,7 @@ class ApplicationHttpResponse extends HttpServletResponseWrapper {
      * Descriptive information about this implementation.
      */
     protected static final String info =
-        "org.apache.catalina.core.ApplicationHttpResponse/1.0";
+        "org.apache.catalina.cxs04.z.core.ApplicationHttpResponse/1.0";
 
 
     /**

@@ -1,5 +1,5 @@
 /*
- * $Header: /home/cvs/jakarta-tomcat-4.0/catalina/src/share/org/apache/catalina/core/StandardHostValve.java,v 1.6 2002/01/04 16:33:40 remm Exp $
+ * $Header: /home/cvs/jakarta-tomcat-4.0/catalina/src/share/org/apache/catalina/cxs04.z.core/StandardHostValve.java,v 1.6 2002/01/04 16:33:40 remm Exp $
  * $Revision: 1.6 $
  * $Date: 2002/01/04 16:33:40 $
  *
@@ -101,7 +101,7 @@ final class StandardHostValve
      * The descriptive information related to this implementation.
      */
     private static final String info =
-        "org.apache.catalina.core.StandardHostValve/1.0";
+        "org.apache.catalina.cxs04.z.core.StandardHostValve/1.0";
 
 
     /**

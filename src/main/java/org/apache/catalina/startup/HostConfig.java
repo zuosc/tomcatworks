@@ -117,7 +117,7 @@ public class HostConfig
     /**
      * The Java class name of the Context implementation we should use.
      */
-    protected String contextClass = "org.apache.catalina.core.StandardContext";
+    protected String contextClass = "org.apache.catalina.cxs04.z.core.StandardContext";
 
 
     /**

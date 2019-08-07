@@ -1,5 +1,5 @@
 /*
- * $Header: /home/cvs/jakarta-tomcat-4.0/catalina/src/share/org/apache/catalina/core/StandardContextValve.java,v 1.16 2002/03/14 20:58:24 remm Exp $
+ * $Header: /home/cvs/jakarta-tomcat-4.0/catalina/src/share/org/apache/catalina/cxs04.z.core/StandardContextValve.java,v 1.16 2002/03/14 20:58:24 remm Exp $
  * $Revision: 1.16 $
  * $Date: 2002/03/14 20:58:24 $
  *
@@ -101,7 +101,7 @@ final class StandardContextValve
      * The descriptive information related to this implementation.
      */
     private static final String info =
-        "org.apache.catalina.core.StandardContextValve/1.0";
+        "org.apache.catalina.cxs04.z.core.StandardContextValve/1.0";
 
 
     /**

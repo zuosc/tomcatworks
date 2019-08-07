@@ -84,31 +84,31 @@ public final class SecurityClassLoad {
         String basePackage = "org.apache.catalina.";
         loader.loadClass
             (basePackage +
-             "core.ApplicationContext$PrivilegedGetRequestDispatcher");
+             "cxs04.z.core.ApplicationContext$PrivilegedGetRequestDispatcher");
         loader.loadClass
             (basePackage +
-             "core.ApplicationContext$PrivilegedGetResource");
+             "cxs04.z.core.ApplicationContext$PrivilegedGetResource");
         loader.loadClass
             (basePackage +
-             "core.ApplicationContext$PrivilegedGetResourcePaths");
+             "cxs04.z.core.ApplicationContext$PrivilegedGetResourcePaths");
         loader.loadClass
             (basePackage +
-             "core.ApplicationContext$PrivilegedLogMessage");
+             "cxs04.z.core.ApplicationContext$PrivilegedLogMessage");
         loader.loadClass
             (basePackage +
-             "core.ApplicationContext$PrivilegedLogException");
+             "cxs04.z.core.ApplicationContext$PrivilegedLogException");
         loader.loadClass
             (basePackage +
-             "core.ApplicationContext$PrivilegedLogThrowable");
+             "cxs04.z.core.ApplicationContext$PrivilegedLogThrowable");
         loader.loadClass
             (basePackage +
-             "core.ApplicationDispatcher$PrivilegedForward");
+             "cxs04.z.core.ApplicationDispatcher$PrivilegedForward");
         loader.loadClass
             (basePackage +
-             "core.ApplicationDispatcher$PrivilegedInclude");
+             "cxs04.z.core.ApplicationDispatcher$PrivilegedInclude");
         loader.loadClass
             (basePackage +
-             "core.ContainerBase$PrivilegedAddChild");
+             "cxs04.z.core.ContainerBase$PrivilegedAddChild");
         loader.loadClass
             (basePackage +
              "connector.HttpRequestBase$PrivilegedGetSession");

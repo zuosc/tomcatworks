@@ -1,5 +1,5 @@
 /*
- * $Header: /home/cvs/jakarta-tomcat-4.0/catalina/src/share/org/apache/catalina/core/StandardEngine.java,v 1.15 2002/05/02 22:14:45 craigmcc Exp $
+ * $Header: /home/cvs/jakarta-tomcat-4.0/catalina/src/share/org/apache/catalina/cxs04.z.core/StandardEngine.java,v 1.15 2002/05/02 22:14:45 craigmcc Exp $
  * $Revision: 1.15 $
  * $Date: 2002/05/02 22:14:45 $
  *
@@ -116,14 +116,14 @@ public class StandardEngine
      * The descriptive information string for this implementation.
      */
     private static final String info =
-        "org.apache.catalina.core.StandardEngine/1.0";
+        "org.apache.catalina.cxs04.z.core.StandardEngine/1.0";
 
 
     /**
      * The Java class name of the default Mapper class for this Container.
      */
     private String mapperClass =
-        "org.apache.catalina.core.StandardEngineMapper";
+        "org.apache.catalina.cxs04.z.core.StandardEngineMapper";
 
 
     /**

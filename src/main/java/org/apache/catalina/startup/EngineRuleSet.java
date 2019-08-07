@@ -135,7 +135,7 @@ public class EngineRuleSet extends RuleSetBase {
     public void addRuleInstances(Digester digester) {
 
         digester.addObjectCreate(prefix + "Engine",
-                                 "org.apache.catalina.core.StandardEngine",
+                                 "org.apache.catalina.cxs04.z.core.StandardEngine",
                                  "className");
         digester.addSetProperties(prefix + "Engine");
         digester.addRule(prefix + "Engine",

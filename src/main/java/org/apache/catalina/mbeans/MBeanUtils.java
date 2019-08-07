@@ -125,7 +125,7 @@ public class MBeanUtils {
           "Ajp13Connector" },
         { "org.apache.coyote.tomcat4.Ajp13Connector",
           "CoyoteConnector" },
-        { "org.apache.catalina.core.StandardDefaultContext",
+        { "org.apache.catalina.cxs04.z.core.StandardDefaultContext",
           "DefaultContext" },
         { "org.apache.catalina.connector.http10.HttpConnector",
           "Http10Connector" },

@@ -1,5 +1,5 @@
 /*
- * $Header: /home/cvs/jakarta-tomcat-4.0/catalina/src/share/org/apache/catalina/core/StandardWrapper.java,v 1.40 2002/08/29 10:37:55 remm Exp $
+ * $Header: /home/cvs/jakarta-tomcat-4.0/catalina/src/share/org/apache/catalina/cxs04.z.core/StandardWrapper.java,v 1.40 2002/08/29 10:37:55 remm Exp $
  * $Revision: 1.40 $
  * $Date: 2002/08/29 10:37:55 $
  *
@@ -155,7 +155,7 @@ public final class StandardWrapper
      * The descriptive information string for this implementation.
      */
     private static final String info =
-        "org.apache.catalina.core.StandardWrapper/1.0";
+        "org.apache.catalina.cxs04.z.core.StandardWrapper/1.0";
 
 
     /**

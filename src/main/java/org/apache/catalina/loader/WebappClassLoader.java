@@ -1921,7 +1921,7 @@ public class WebappClassLoader
             Policy policy = Policy.getPolicy();
             policy.refresh();
         } catch (AccessControlException e) {
-            // Some policy files may restrict this, even for the core,
+            // Some policy files may restrict this, even for the cxs04.z.core,
             // so this exception is ignored
         }
 

@@ -138,11 +138,11 @@ public class ContextRuleSet extends RuleSetBase {
 
         if (!isDefaultContext()) {
             digester.addObjectCreate(prefix + "Context",
-                                     "org.apache.catalina.core.StandardContext",
+                                     "org.apache.catalina.cxs04.z.core.StandardContext",
                                      "className");
         } else {
             digester.addObjectCreate(prefix + "Context",
-                                     "org.apache.catalina.core.StandardDefaultContext",
+                                     "org.apache.catalina.cxs04.z.core.StandardDefaultContext",
                                      "className");
         }
         digester.addSetProperties(prefix + "Context");

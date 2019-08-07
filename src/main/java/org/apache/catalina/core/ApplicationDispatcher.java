@@ -1,5 +1,5 @@
 /*
- * $Header: /home/cvs/jakarta-tomcat-4.0/catalina/src/share/org/apache/catalina/core/ApplicationDispatcher.java,v 1.30 2002/06/09 05:45:04 remm Exp $
+ * $Header: /home/cvs/jakarta-tomcat-4.0/catalina/src/share/org/apache/catalina/cxs04.z.core/ApplicationDispatcher.java,v 1.30 2002/06/09 05:45:04 remm Exp $
  * $Revision: 1.30 $
  * $Date: 2002/06/09 05:45:04 $
  *
@@ -237,7 +237,7 @@ final class ApplicationDispatcher
      * Descriptive information about this implementation.
      */
     private static final String info =
-        "org.apache.catalina.core.ApplicationDispatcher/1.0";
+        "org.apache.catalina.cxs04.z.core.ApplicationDispatcher/1.0";
 
 
     /**
